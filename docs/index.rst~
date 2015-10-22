@@ -1,23 +1,26 @@
-.. OrbisGIS User Manual documentation master file, created by
+.. OrbisGIS documentation master file, created by
    sphinx-quickstart on Wed Oct 21 14:23:48 2015.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to OrbisGIS User Manual's documentation!
+Welcome on the OrbisGIS's documentation!
 ================================================
 
-Contents:
-
-
-Test
+Here you will find a documentation for both users and developers of OrbisGIS.
 
 .. toctree::
    :maxdepth: 2
    :caption: User Documentation
 
-   quickstart/workspace
+   users/quickstart
    toto
    tata
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Developper Documentation
+
+   developers/api
 
 
 Indices and tables
