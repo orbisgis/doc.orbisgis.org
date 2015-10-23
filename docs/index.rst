@@ -13,8 +13,7 @@ Here you will find a documentation for both users and developers of OrbisGIS.
    :caption: User Documentation
 
    users/quickstart
-   toto
-   tata
+   users/components
 
 .. toctree::
    :maxdepth: 2
