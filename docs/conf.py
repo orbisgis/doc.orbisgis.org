@@ -52,7 +52,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'OrbisGIS User Manual'
+project = u'OrbisGIS Manual'
 copyright = u'2015, G. Petit & E. Bocher'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -128,12 +128,12 @@ html_theme_path = ["_themes/sphinx_rtd_theme", ]
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-#html_logo = None
+html_logo = '_images/Logo_OG_compact.png'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-#html_favicon = None
+html_favicon = '_images/favicon_OG.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -187,7 +187,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OrbisGISUserManualdoc'
+htmlhelp_basename = 'OrbisGISManualdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -207,7 +207,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'OrbisGISUserManual.tex', u'OrbisGIS User Manual Documentation',
+  ('index', 'OrbisGISManual.tex', u'OrbisGIS Manual Documentation',
    u'G. Petit \\& E. Bocher', 'manual'),
 ]
 
@@ -237,7 +237,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'orbisgisusermanual', u'OrbisGIS User Manual Documentation',
+    ('index', 'orbisgismanual', u'OrbisGIS  Manual Documentation',
      [u'G. Petit & E. Bocher'], 1)
 ]
 
@@ -251,8 +251,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'OrbisGISUserManual', u'OrbisGIS User Manual Documentation',
-   u'G. Petit & E. Bocher', 'OrbisGISUserManual', 'One line description of project.',
+  ('index', 'OrbisGISManual', u'OrbisGIS Manual Documentation',
+   u'G. Petit & E. Bocher', 'OrbisGISManual', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -272,13 +272,13 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'OrbisGIS User Manual'
+epub_title = u'OrbisGIS Manual'
 epub_author = u'G. Petit & E. Bocher'
 epub_publisher = u'G. Petit & E. Bocher'
 epub_copyright = u'2015, G. Petit & E. Bocher'
 
 # The basename for the epub file. It defaults to the project name.
-#epub_basename = u'OrbisGIS User Manual'
+#epub_basename = u'OrbisGIS Manual'
 
 # The HTML theme for the epub output. Since the default themes are not optimized
 # for small screen space, using the same theme for HTML and epub output is
