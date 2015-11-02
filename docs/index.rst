@@ -12,8 +12,9 @@ Here you will find a documentation for both users and developers of OrbisGIS.
    :maxdepth: 2
    :caption: User Documentation
 
-   users/quickstart
    users/components
+   users/quickstart
+   users/attributes
 
 .. toctree::
    :maxdepth: 2
