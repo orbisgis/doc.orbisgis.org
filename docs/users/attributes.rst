@@ -1,3 +1,7 @@
+
+.. _show_attributes:
+
+
 Show attributes 
 ========
 
@@ -21,9 +25,11 @@ A new tab appears in the UI with all the attributes.
 
 .. |OpenAttributes| image:: ../_images/table.png
               :alt: Open attributes icon
+	      :width: 16 pt
 
 .. |PK| image:: ../_images/key.png
               :alt: Primary key icon
+	      :width: 16 pt
 
 
 Operation on lines
@@ -41,18 +47,23 @@ With a right-click on a line, the user can access to several options:
 
 .. |ZoomToSelection| image:: ../_images/zoom_selected.png
               :alt: Zoom to selection tool
+	      :width: 16 pt
 
 .. |FilterSelection| image:: ../_images/row_filter.png
               :alt: Filter selection icon
+	      :width: 16 pt
 
 .. |CreateDataFromSel| image:: ../_images/table_go.png
               :alt: Create Datasource from selection icon
+	      :width: 16 pt
 
 .. |Unselect| image:: ../_images/edit-clear.png
               :alt: Unselection icon
+	      :width: 16 pt
 
 .. |ReverseSelection| image:: ../_images/reverse_selection.png
               :alt: Reverse selection icon
+	      :width: 16 pt
 
 
 
@@ -69,21 +80,27 @@ With a right-click on a field, the user can access to several options:
 
 .. |SelectSameRows| image:: ../_images/selectsame_row.png
               :alt: Selection same rows icon
+	      :width: 16 pt
 
 .. |Asc| image:: ../_images/spinner_up.png
               :alt: Sort ascending icon
+	      :width: 16 pt
 
 .. |Desc| image:: ../_images/spinner_down.png
               :alt: Sort ascending icon
+	      :width: 16 pt
 
 .. |Unsort| image:: ../_images/table_refresh.png
               :alt: Unsort icon
+	      :width: 16 pt
 
 .. |Info| image:: ../_images/information.png
               :alt: Information icon
+	      :width: 16 pt
 
 .. |Statistics| image:: ../_images/statistics.png
               :alt: Statistics icon
+	      :width: 16 pt
 
 
 Search engine
@@ -95,7 +112,7 @@ In the lower part of the window, there is a search engine that can be used in tw
 - "SQL" mode: just write an SQL instruction and press the "Execute" ( |SQLExecute| ) icon.
 
 
-
 .. |SQLExecute| image:: ../_images/execute.png
               :alt: Execute SQL instruction icon
+	      :width: 16 pt
 
