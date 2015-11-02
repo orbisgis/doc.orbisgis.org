@@ -67,7 +67,7 @@ The map ( |Map| ) is the place where geographic informations (vector or raster) 
 
 .. |Map| image:: ../_images/map.png
               :alt: Map icon
-
+	      :width: 16 pt
 
 TOC
 ---------------
@@ -93,30 +93,39 @@ Moreover, several features are available via a right-click:
 
 .. |TOC| image:: ../_images/toc.png
               :alt: TOC icon
+	      :width: 16 pt
 
 .. |AddWMS| image:: ../_images/world_add.png
               :alt: Add a WMS icon
+	      :width: 16 pt
 
 .. |ZoomLayer| image:: ../_images/zoom_layer.png
               :alt: Zoom to layer icon
+	      :width: 16 pt
 
 .. |ImportStyle| image:: ../_images/palette_import.png
               :alt: Import a style icon
+	      :width: 16 pt
 
 .. |Thematic| image:: ../_images/palette_add.png
               :alt: Create a thematic analysis icon
+	      :width: 16 pt
 
 .. |ExportStyle| image:: ../_images/palette_export.png
               :alt: Export a style icon
+	      :width: 16 pt
 
 .. |EditStyle| image:: ../_images/palette_edit.png
               :alt: Edit a style icon
+	      :width: 16 pt
 
 .. |RemoveStyle| image:: ../_images/palette_remove.png
               :alt: Remove a style icon
+	      :width: 16 pt
 
 .. |Edit| image:: ../_images/pencil.png
               :alt: Edit icon
+	      :width: 16 pt
 
 DB Tree
 ---------------
@@ -130,12 +139,15 @@ Specific options allows the user to:
 
 .. |DBTree| image:: ../_images/db_tree.png
               :alt: DB Tree icon
+	      :width: 16 pt
 
 .. |GeoIndex| image:: ../_images/index_geo.png
               :alt: Geographic index icon
+	      :width: 16 pt
 
 .. |AlphaIndex| image:: ../_images/index_alpha.png
               :alt: Alphanumeric index icon
+	      :width: 16 pt
 
 
 Output console
@@ -145,6 +157,7 @@ The output ( |Output| ) console is the place where all messages (informations, w
 
 .. |Output| image:: ../_images/output.png
               :alt: Output icon
+	      :width: 16 pt
 
 
 SQL console
@@ -171,12 +184,16 @@ N.B: This component is available through the "Tools" menu.
 
 .. |SQLConsole| image:: ../_images/sql_code.png
               :alt: SQL Console icon
+	      :width: 16 pt
 
 .. |SQLExecute| image:: ../_images/execute.png
               :alt: Execute SQL instruction icon
+	      :width: 16 pt
 
 .. |SQLfunctions| image:: ../_images/builtinfunctionmap.png
               :alt: SQL functions icon
+	      :width: 16 pt
 
 .. |Search| image:: ../_images/find.png
               :alt: Search icon
+	      :width: 16 pt

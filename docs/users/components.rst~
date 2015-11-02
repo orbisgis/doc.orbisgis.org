@@ -33,24 +33,31 @@ The Geocatalog ( |GeoCatalog| ) is the place where datasources are managed. Thro
 
 .. |GeoCatalog| image:: ../_images/geocatalog.png
               :alt: Geocatalog icon
+	      :width: 16 pt
 
 .. |AddFile| image:: ../_images/page_white_add.png
               :alt: Add a file icon
+	      :width: 16 pt
 
 .. |AddFolder| image:: ../_images/folder_add.png
               :alt: Add a file icon
+	      :width: 16 pt
 
 .. |Export| image:: ../_images/page_white_save.png
               :alt: Export a file icon
+	      :width: 16 pt
 
 .. |OpenAttributes| image:: ../_images/table.png
               :alt: Open attributes icon
+	      :width: 16 pt
 
 .. |Remove| image:: ../_images/remove.png
               :alt: Remove icon
+	      :width: 16 pt
 
 .. |Refresh| image:: ../_images/refresh.png
               :alt: Refresh icon
+	      :width: 16 pt
 
 
 Map
@@ -119,7 +126,7 @@ Specific options allows the user to:
 
 - Create spatial index (|GeoIndex| ),
 - Create alphanumeric index ( |AlphaIndex| ),
-- Remove columns.
+- Remove columns ( |Remove| ).
 
 .. |DBTree| image:: ../_images/db_tree.png
               :alt: DB Tree icon
