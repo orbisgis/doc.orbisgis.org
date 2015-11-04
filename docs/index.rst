@@ -27,6 +27,7 @@ Except where otherwise noted, this documenation is licensed under a *Creative Co
    users/components
    users/quickstart
    users/attributes
+   users/groovy_with_sql
 
 .. toctree::
    :maxdepth: 2
