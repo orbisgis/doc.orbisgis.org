@@ -3,7 +3,7 @@
 
 
 Show attributes 
-========
+===============
 
 
 To show the layer’s attributes, select it in the TOC (or in Geocatalog) and make a right-click --> "Open attributes" ( |OpenAttributes| ).

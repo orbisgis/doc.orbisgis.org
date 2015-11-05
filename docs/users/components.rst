@@ -1,5 +1,5 @@
 Main Components 
-========
+===============
 
 Here is a list of the main components of OrbisGIS. Except for the map, these components can be: 
 

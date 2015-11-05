@@ -1,5 +1,5 @@
 Groovy script with SQL 
-========
+======================
 
 Below is an example of how to use SQL instructions into Groovy script.
 
