@@ -26,6 +26,7 @@ User documentation
 ------------------
 
 .. toctree::
+   :hidden:
    :maxdepth: 1
    :caption: User documentation
 

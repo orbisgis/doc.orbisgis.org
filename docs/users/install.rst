@@ -1,5 +1,5 @@
 Installation
-========
+============
 
 
 Requierement
@@ -56,7 +56,7 @@ To launch OrbisGIS, you have the choice between:
 
 
 Run the .sh file
----------------
+----------------
 
 To run the .sh file *(in Linux and iOS)* in command line, just follow these two steps:
 

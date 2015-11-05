@@ -1,5 +1,5 @@
 Quickstart 
-========
+==========
 
 
 The workspace
@@ -21,13 +21,13 @@ To load data, just choose "Add" or "Import" in the Geocatalog.
 
 
 Display on the map
----------------
+------------------
 
 To display a geographic layer, just drag & drop it from the Geocatalog to the TOC.
 
 
 Display attributes
----------------
+------------------
 
 To see how to display attributes, have a look at :ref:`show_attributes` page.
 
