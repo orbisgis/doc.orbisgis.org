@@ -24,7 +24,10 @@ Licence
 
 Except where otherwise noted, this documenation is licensed under a *Creative Commons Attribution-NonCommercial-ShareAlike 4.0* (CC-BY-NC-SA_) International License.
 
+User documentation
+-----------------------
 
+In this part, we present the basis of OrbisGIS (how to launch, to discover and to use the application).
 
 .. toctree::
    :hidden:
@@ -41,7 +44,10 @@ Except where otherwise noted, this documenation is licensed under a *Creative Co
 Developer documentation
 -----------------------
 
+This part is mainly oriented to developers. Some useful informations and examples are presented. 
+
 .. toctree::
+   :hidden:
    :maxdepth: 1
    :caption: Developer documentation
 
