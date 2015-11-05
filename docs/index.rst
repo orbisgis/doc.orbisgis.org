@@ -24,6 +24,7 @@ Except where otherwise noted, this documenation is licensed under a *Creative Co
    :maxdepth: 2
    :caption: User Documentation
 
+   users/install
    users/components
    users/quickstart
    users/attributes
