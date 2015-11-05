@@ -6,6 +6,9 @@
 Welcome on the OrbisGIS's documentation!
 ================================================
 
+Introduction
+------------
+
 Here you will find a documentation for both users and developers of OrbisGIS.
 
 OrbisGIS is a free and open-source Geographic Information System, developed by researchers and mainly dedicated to research issues. The official website is http://www.orbisgis.org/.
@@ -14,15 +17,17 @@ All the sources of this project can be found on the GitHub_ account.
 
 
 Licence
----------------
+~~~~~~~
 
 Except where otherwise noted, this documenation is licensed under a *Creative Commons Attribution-NonCommercial-ShareAlike 4.0* (CC-BY-NC-SA_) International License.
 
 
+User documentation
+------------------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: User Documentation
+   :maxdepth: 1
+   :caption: User documentation
 
    users/install
    users/components
@@ -30,9 +35,13 @@ Except where otherwise noted, this documenation is licensed under a *Creative Co
    users/attributes
    users/groovy_with_sql
 
+
+Developer documentation
+-----------------------
+
 .. toctree::
-   :maxdepth: 2
-   :caption: Developper Documentation
+   :maxdepth: 1
+   :caption: Developer documentation
 
    developers/api
 
