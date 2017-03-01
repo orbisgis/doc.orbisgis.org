@@ -18,7 +18,7 @@ The following items are saved in the workspace:
 Database
 ---------------
 
-OrbisGIS is build on top of a relational spatial database. All data are managed ,queried from a JDBC driver.
+OrbisGIS is build on top of a relational spatial database. All data are managed, queried from a JDBC driver.
 By default OrbisGIS starts with the embedded spatial database H2GIS. However, OrbisGIS could be connected to a PostgresSQL-PostGIS database.
 
 
