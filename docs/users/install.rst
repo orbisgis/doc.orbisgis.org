@@ -38,6 +38,9 @@ In this folder, you can just focus on:
 - orbigis_windows.bat : ... in "safemode",
 - orbisgis.jar : the application itself.
 
+
+.. _safemode:
+
 *Note that "Safemode" is only useful when OrbisGIS does not start successfully. Running this file will uninstall all plugins and former OrbisGIS modules.*
 
 
@@ -101,8 +104,16 @@ Once done, you can launch OrbisGIS thanks to the shortcut in the "Applications/E
               :alt: OrbisGIS menu in Ubuntu
               :align: center
 
-or enter the following command in the terminal:
+Or enter the following command in the terminal:
 
 .. code-block:: bash
 
 	orbisgis
+
+
+
+Note that you could also launch OrbisGIS in safemode_ with this command:
+
+.. code-block:: bash
+
+	orbisgis -clean
