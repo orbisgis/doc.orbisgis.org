@@ -38,6 +38,7 @@ In this part, we present the basis of OrbisGIS (how to launch, to discover and t
    users/components
    users/quickstart
    users/attributes
+   users/sql_console
    users/groovy_with_sql
 
 

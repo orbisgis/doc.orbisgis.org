@@ -1,9 +1,9 @@
 Installation
-============
+=======
 
 
 Requierement
----------------
+-------------------
 
 Before using OrbisGIS, you must ensure that you are running at least the **JAVA 7** virtual machine (openJDK_ or Oracle_).
 
@@ -12,22 +12,23 @@ Before using OrbisGIS, you must ensure that you are running at least the **JAVA 
 
 
 Download
----------------
+--------------
 
 To download OrbisGIS, just consult the official website here_.
 
 .. _here: http://www.orbisgis.org/index.html#download
 
 Execute
----------------
+------------
 
-OrbisGIS is a standalone application. It means that no installation is needed. In addition, it also means that you can play with OrbisGIS without any "administrator" rule !
+OrbisGIS is a standalone application. It means that, if you want (see `Ubuntu PPA repository`_), no installation is needed. In addition, it also means that you can play with OrbisGIS without any "administrator" rule !
 
 
 Once the orbisgis-bin.zip file downloaded, just unzip the file.
 
 .. image:: ../_images/install_zip.png
               :alt: Zip folder
+              :align: center
 
 In this folder, you can just focus on:
 
@@ -56,7 +57,7 @@ To launch OrbisGIS, you have the choice between:
 
 
 Run the .sh file
-----------------
+--------------------
 
 To run the .sh file *(in Linux and iOS)* in command line, just follow these two steps:
 
@@ -69,6 +70,7 @@ To run the .sh file *(in Linux and iOS)* in command line, just follow these two 
 
 .. image:: ../_images/execute_terminal.png
               :alt: Execution terminal
+              :align: center
 
 Note: You must have the rights to run this file. To do this, you can use the following command: 
 
@@ -77,3 +79,30 @@ Note: You must have the rights to run this file. To do this, you can use the fol
 	chmod ug+x ./orbisgis.sh
 
 ... and your file will be executable.
+
+
+
+Ubuntu PPA repository
+-----------------------------
+
+If you are using Ubuntu (or a Debian like distribution) you also have the possibily to connect to our PPA repository, available here : https://launchpad.net/~orbisgis/+archive/ubuntu/orbisgis-unstable
+
+To add this repository and to install OrbisGIS (snapshot version), just execute the following command lines:
+
+.. code-block:: bash
+
+	sudo add-apt-repository ppa:orbisgis/orbisgis-unstable
+	sudo apt-get update
+	sudo apt-get install orbisgis
+
+Once done, you can launch OrbisGIS thanks to the shortcut in the "Applications/Education" menu
+
+.. image:: ../_images/og_ubuntu_menu.png
+              :alt: OrbisGIS menu in Ubuntu
+              :align: center
+
+or enter the following command in the terminal:
+
+.. code-block:: bash
+
+	orbisgis
