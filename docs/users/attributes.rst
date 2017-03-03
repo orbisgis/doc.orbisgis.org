@@ -13,7 +13,7 @@ A new tab appears in the UI with all the attributes.
 
 .. image:: ../_images/link_table_map.png
               :alt: Open attributes table
-
+              :align: center
 
 **Remarks**
 

@@ -1,19 +1,24 @@
-Main Components 
-===============
+.. _main_components:
 
-Here is a list of the main components of OrbisGIS. Except for the map, these components can be: 
+Main Components 
+===========
+
+Here is a list of the main components of OrbisGIS. Except for the map, all these components are consider by OrbisGIS as plugins. So they can be: 
 
 - made visible or not *(just close the component to hide it)*,
 - resized *(using the cursor of your mouse)*, 
 - moved *(drag & drop the component to a new place in the UI)*,
-- (un)docked *(pretty useful if you have a dual screen)*.
-
+- (un)docked *(pretty useful if you have a dual screen)*,
+- (un)installed *(thanks the plugin manager)*.
 
 .. image:: ../_images/orbisgis_main_components.png
               :alt: OrbisGIS main components
+              :align: center
 
-To load a component, check the list in the "Windows" menu *(in red in the illustration above)*.
+To load a component, check the list in the "Windows" menu *(in red in the illustration above)* or the "Tools" menu *(for the SQL Console)*.
 
+
+.. _geocatalog:
 
 Geocatalog
 ---------------
@@ -27,7 +32,6 @@ The Geocatalog ( |GeoCatalog| ) is the place where datasources are managed. Thro
 - Remove a datasource ( |Remove| ),
 - Clear the Geocatalog : all the sources are removed from OrbisGIS,
 - Refresh the list ( |Refresh| ).
-
 
 
 
@@ -61,7 +65,7 @@ The Geocatalog ( |GeoCatalog| ) is the place where datasources are managed. Thro
 
 
 Map
----------------
+-------
 
 The map ( |Map| ) is the place where geographic informations (vector or raster) are displayed. The user can navigate into the map (using zoom or pan tools), select and get informations on objects.
 
@@ -69,8 +73,11 @@ The map ( |Map| ) is the place where geographic informations (vector or raster) 
               :alt: Map icon
 	      :width: 16 pt
 
+
+.. _toc:
+
 TOC
----------------
+------
 
 TOC ( |TOC| ) stands for "Table Of Content". This component allows the user to:
 
@@ -130,7 +137,12 @@ Moreover, several features are available via a right-click:
 DB Tree
 ---------------
 
-The DB Tree ( |DBTree| ) is a tree representation of all the layers loaded in OrbisGIS. Layers *(tables)* are listed into their respectives folder *(views)*.
+The DB Tree ( |DBTree| ) is a tree representation of all the layers loaded in OrbisGIS. Layers *(tables)* are listed into their respectives folder *(schema)*.
+
+.. image:: ../_images/db_tree_detail.png
+              :alt: DB tree detail
+              :align: center
+
 Specific options allows the user to:
 
 - Create spatial index (|GeoIndex| ),
@@ -151,9 +163,11 @@ Specific options allows the user to:
 
 
 Output console
----------------
+--------------------
 
 The output ( |Output| ) console is the place where all messages (informations, warnings or errors) are displayed.
+
+Logs can be copy and paste into a text editor.
 
 .. |Output| image:: ../_images/output.png
               :alt: Output icon
@@ -161,39 +175,13 @@ The output ( |Output| ) console is the place where all messages (informations, w
 
 
 SQL console
----------------
+----------------
 
-The SQL console ( |SQLConsole| ) is the place where the user can execute SQL scripts. This component can be considered as a text editor. The user is able to:
+The SQL console ( |SQLConsole| ) is the place where the user can process data thanks to SQL scripts. To know more about this component, read ":ref:`sql_console`".
 
-- Write & execute ( |SQLExecute| ) instructions,
-- Load & Save .sql files,
-- Search (spatial) SQL functions and operators into a predetermined list ( |SQLfunctions| ),
-- Search & Replace words *(with advanced options)* ( |Search| ),
-- Share SQL instructions via email *(need a specific plugin)*,
-- To auto-complete instructions *(see more below)*.
-
-**Auto-completion**
-
-To use the auto-completion, just press "Ctrl + Space". For example, if you write “sel” and then press “Ctrl + Space”, OrbisGIS will recognize that you want to write “SELECT”. In the same spirit, if you start writing the name of a function, a table or field, a dropdown list will appear on the right to offer you the corresponding elements.
-
-See an illustration video_.
-
-.. _video: https://www.youtube.com/watch?v=neFpyo2qaAI
-
-N.B: This component is available through the "Tools" menu.
 
 .. |SQLConsole| image:: ../_images/sql_code.png
               :alt: SQL Console icon
 	      :width: 16 pt
 
-.. |SQLExecute| image:: ../_images/execute.png
-              :alt: Execute SQL instruction icon
-	      :width: 16 pt
 
-.. |SQLfunctions| image:: ../_images/builtinfunctionmap.png
-              :alt: SQL functions icon
-	      :width: 16 pt
-
-.. |Search| image:: ../_images/find.png
-              :alt: Search icon
-	      :width: 16 pt
