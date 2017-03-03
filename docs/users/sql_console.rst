@@ -29,7 +29,8 @@ Remarks:
 
 * You are able to open as many console you want,
 * The content of the console is saved by default,
-* There is syntax coloration that helps the user to read the instructions.
+* There is syntax coloration that helps the user to read the instructions,
+* You also have some additional functionalities thanks to a right-click in the text area.
 
 Below are some other tooltips:
 

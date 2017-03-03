@@ -12,7 +12,7 @@ The following items are saved in the workspace:
 * Opened windows (with their size and place in the UI) (see :ref:`main_components`),
 * `Database`_ connection parameters,
 * Map context file (loaded layers in the :ref:`toc`),
-* Toolbox parameters
+* Toolbox parameters.
 
 
 The workspace manager 
@@ -28,7 +28,7 @@ When you launch OrbisGIS, the first panel displayed is the "Workspace Manager". 
 * You can select already created workspaces using the drop down list.
 * If you check the "Set as default?" box, you will skip the Workspace Manager the next time you will launch OrbisGIS (not an irreversible action).
 * If you want to configure your database, click on |WkspCustomDB|  (*Customize your database*) (see `Database`_).
-* If you don't want to configure your database, just press "OK". In this case, a default H2GIS db (named "database.mv.db") will automaticaly be created in your workspace folder. The default login of this db is "sa" and there is no password.
+* If you **don't** want to configure your database, just press "OK". In this case, a default H2GIS db (named "database.mv.db") will automaticaly be created in your workspace folder. The default login of this db is "sa" and there is no password.
 
 
 Database
@@ -40,7 +40,7 @@ By default OrbisGIS starts with the embedded spatial database H2GIS_. However, O
 What does it mean ?
 *******************
 
-It mean that all the data you are using are interpreted as tables in OrbisGIS and can be processed thanks to the Spatial SQL langage. It also mean that if you choose to connect OrbisGIS to an existing PostGIS db, you will be able (1) to display and process your data and (2) to execute your PostGreSQL/PostGIS scripts directly into OrbisGIS, without any changes.
+It mean that all the data you are using are interpreted as tables in OrbisGIS and can be processed thanks to the Spatial SQL langage. It also mean that if you choose to connect OrbisGIS to an existing PostGIS db, you will be able (1) to display and process your data, (2) to execute your PostGreSQL/PostGIS scripts directly into OrbisGIS, without any changes and (3) to use specific PostGreSQL/PostGIS functions.
 
 
 Configure
@@ -67,7 +67,7 @@ Here you have:
 
 Database type: 
 
-* H2GIS_EMBEDDED: installed and deployed locally. By default the H2GIS db is stored in the workspace folder. This db may have been by OrbisGIS, or by H2GIS_
+* H2GIS_EMBEDDED: installed and deployed locally. By default the H2GIS db is stored in the workspace folder. This db may have been created by OrbisGIS, or by H2GIS_,
 * H2GIS_SERVER: remote H2GIS db,
 * POSTGIS: remote PostGIS db.
 
@@ -87,7 +87,7 @@ Load data
 
 To load data, just make a right-click in the :ref:`geocatalog` and choose "Add" or "Import".
 
-* Add: link to a file (vector, raster, alphanumeric, ...),
+* Add: link to a file (vector, alphanumeric, ...),
 * Import: import a file and convert it into a table.
 
 For both options, you can choose:
@@ -98,7 +98,7 @@ For both options, you can choose:
 Formats
 ********
 
-Below is the list of readable formats that you can choose in the UI, depending if you chose "Add" or "Import".
+Below is the list of **readable** formats that you can choose in the UI, depending if you chose "Add" or "Import".
 
 +--------+-----+-----+-----+---------+-----+-----+-----+
 | Format | SHP | GPX | OSM | GeoJSON | CSV | DBF | TSV | 
