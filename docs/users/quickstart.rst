@@ -71,7 +71,11 @@ Database type:
 * H2GIS_SERVER: remote H2GIS db,
 * POSTGIS: remote PostGIS db.
 
+The figure below summarizes this philosophy:
 
+.. image:: ../_images/OG_and_db.svg.png
+              :alt: Choose a db core
+              :align: center
 
 Example with a PostGIS db
 *************************
@@ -87,8 +91,24 @@ Load data
 
 To load data, just make a right-click in the :ref:`geocatalog` and choose "Add" or "Import".
 
-* Add: link to a file (vector, alphanumeric, ...),
-* Import: import a file and convert it into a table.
+* Add: Link a new database table to a file (vector, alphanumeric, ...),
+	* Pro:
+		* Immediate table creation,
+		* Does not take more disk space,
+		* Can create spatial index.
+	* Cons:
+		* Read-only table,
+		* Cannot create alpha-numeric index,
+		* Only compatible with h2 database.
+* Import: Copy the file content into a new database table,
+	* Pro:
+		* Create a native h2/PostGIS table,
+		* Read/Write table,
+		* Can create spatial index and alpha-numeric index.
+	* Cons:
+		* Take time to create the table depending on file size,
+		* Take more disk space.
+
 
 For both options, you can choose:
 
