@@ -99,6 +99,7 @@ To load data, just make a right-click in the :ref:`geocatalog` and choose "Add" 
 	* Cons:
 		* Read-only table,
 		* Cannot create alpha-numeric index,
+		* Currently only compatible with h2 database.
 * Import: Copy the file content into a new database table,
 	* Pro:
 		* Create a native h2/PostGIS table,
