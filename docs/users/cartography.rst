@@ -5,27 +5,20 @@
 Cartography 
 ===========
 
-In OrbisGIS, you can manage the way you display geographic informations in the map thanks to the definition and the configuration of styles.
-
-
-Symbology Encoding
--------------------------------------------
-
-Styles are following the work-in-progress OGC `Symbology Encoding`_ standard. If you want to know more about this standard, have a look at this `website`_.
-
+OrbisGIS offers methods to produce maps using a cartographic language, which is managed in a style model. The style model is based on a research work that propose to extend the OGC `Symbology Encoding`_ standard. If you want to know more about this standard, have a look at this `website`_.
 
 .. _Symbology Encoding: http://www.opengeospatial.org/standards/se
 
 .. _website: http://se.orbisgis.org/
 
-In OrbisGIS, styles can be exported (or imported)  as an .se file, encoded in xml.
+Symbology Encoding
+-------------------------------------------
 
-
-A style is organized as follow:
+In this standard, a style is defined with a set of elements:
 
 * Style: a style is composed of one or *n* rule(s)
 	* Rule: a rule has one or *n* symbolizer(s)
-		* Symbolizer: a way to display geometries
+		* Symbolizer: a way to render geometries
 
 A style can be configured with:
 
@@ -45,10 +38,16 @@ A rule can be configured with:
 
 A symbolizer can be:
 
-* a `Unique symbol`_, 
-* a `Value classification`_, 
-* a `Proportionnal symbol`_, 
-* an `Interval classification`_.
+* a point,
+* a line,
+* a polygon.
+
+Here, we propose a pre-configured set of symbolizers to create maps:
+
+* `Unique symbol`_, 
+* `Value classification`_, 
+* `Proportionnal symbol`_, 
+* `Interval classification`_.
 
 Below is an example with a `Unique symbol`_ representation for the french departments. On the left side of the UI, we can see the three levels of the style (Style / Rule / Symbolizer). On the right side of the UI, we have the "rule settings" panel.
 
@@ -56,7 +55,7 @@ Below is an example with a `Unique symbol`_ representation for the french depart
               :alt: Unique symbol example
               :align: center
 
-
+In OrbisGIS, styles can be exported (or imported)  as an .se file, encoded in xml.
 
 Manage styles
 -------------------------------------------
