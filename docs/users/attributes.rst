@@ -1,3 +1,4 @@
+.. Author : Gwendall PETIT (Lab-STICC - CNRS UMR 6285 / DECIDE Team)
 
 .. _show_attributes:
 
@@ -33,7 +34,7 @@ A new tab appears in the UI with all the attributes.
 
 
 Operation on lines
----------------
+-------------------------
 
 With a right-click on a line, the user can access to several options:
 
@@ -68,7 +69,7 @@ With a right-click on a line, the user can access to several options:
 
 
 Operation on a field
----------------
+----------------------------
 
 With a right-click on a field, the user can access to several options:
 
@@ -104,7 +105,7 @@ With a right-click on a field, the user can access to several options:
 
 
 Search engine
----------------
+--------------------
 
 In the lower part of the window, there is a search engine that can be used in two ways:
 

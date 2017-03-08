@@ -1,3 +1,5 @@
+.. Author : Gwendall PETIT (Lab-STICC - CNRS UMR 6285 / DECIDE Team)
+
 Quickstart 
 ==========
 
