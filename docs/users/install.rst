@@ -1,9 +1,11 @@
+.. Author : Gwendall PETIT (Lab-STICC - CNRS UMR 6285 / DECIDE Team)
+
 Installation
-=======
+=========
 
 
 Requierement
--------------------
+----------------------
 
 Before using OrbisGIS, you must ensure that you are running at least the **JAVA 7** virtual machine (openJDK_ or Oracle_).
 
@@ -12,14 +14,14 @@ Before using OrbisGIS, you must ensure that you are running at least the **JAVA 
 
 
 Download
---------------
+----------------------
 
 To download OrbisGIS, just consult the official website here_.
 
 .. _here: http://www.orbisgis.org/index.html#download
 
 Execute
-------------
+----------------------
 
 OrbisGIS is a standalone application. It means that, if you want (see `Ubuntu PPA repository`_), no installation is needed. In addition, it also means that you can play with OrbisGIS without any "administrator" rule !
 
@@ -60,7 +62,7 @@ To launch OrbisGIS, you have the choice between:
 
 
 Run the .sh file
---------------------
+----------------------
 
 To run the .sh file *(in Linux and iOS)* in command line, just follow these two steps:
 
@@ -86,7 +88,7 @@ Note: You must have the rights to run this file. To do this, you can use the fol
 
 
 Ubuntu PPA repository
------------------------------
+--------------------------------
 
 If you are using Ubuntu (or a Debian like distribution) you also have the possibily to connect to our PPA repository, available here : https://launchpad.net/~orbisgis/+archive/ubuntu/orbisgis-unstable
 

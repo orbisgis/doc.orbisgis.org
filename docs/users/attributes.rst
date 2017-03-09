@@ -1,3 +1,4 @@
+.. Author : Gwendall PETIT (Lab-STICC - CNRS UMR 6285 / DECIDE Team)
 
 .. _show_attributes:
 
@@ -32,10 +33,10 @@ A new tab appears in the UI with all the attributes.
 	      :width: 16 pt
 
 
-Operation on lines
----------------
+Operation on rows
+-------------------------
 
-With a right-click on a line, the user can access to several options:
+With a right-click on a row, the user can access to several options:
 
 - Filter selected rows ( |FilterSelection| ) (non-selected lines will be hidden),
 - Create a datasource from the selection ( |CreateDataFromSel| ): export the selection into a new layer,
@@ -67,10 +68,10 @@ With a right-click on a line, the user can access to several options:
 
 
 
-Operation on a field
----------------
+Operation on a column
+----------------------------
 
-With a right-click on a field, the user can access to several options:
+With a right-click on a column (field), the user can access to several options:
 
 - Sort ascending ( |Asc| ) / descending ( |Desc| ),
 - Unsort ( |Unsort| ),
@@ -104,7 +105,7 @@ With a right-click on a field, the user can access to several options:
 
 
 Search engine
----------------
+--------------------
 
 In the lower part of the window, there is a search engine that can be used in two ways:
 

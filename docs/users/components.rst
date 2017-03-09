@@ -1,9 +1,11 @@
+.. Author : Gwendall PETIT (Lab-STICC - CNRS UMR 6285 / DECIDE Team)
+
 .. _main_components:
 
 Main Components 
-===========
+=================
 
-Here is a list of the main components of OrbisGIS. Except for the map, all these components are consider by OrbisGIS as plugins. So they can be: 
+Here is a list of the main components of OrbisGIS. Except for the map, all these components are considered by OrbisGIS as plugins. So they can be: 
 
 - made visible or not *(just close the component to hide it)*,
 - resized *(using the cursor of your mouse)*, 
@@ -21,7 +23,7 @@ To load a component, check the list in the "Windows" menu *(in red in the illust
 .. _geocatalog:
 
 Geocatalog
----------------
+-----------------
 
 The Geocatalog ( |GeoCatalog| ) is the place where datasources are managed. Through a right-click in the blank area, the user can:
 
@@ -65,7 +67,7 @@ The Geocatalog ( |GeoCatalog| ) is the place where datasources are managed. Thro
 
 
 Map
--------
+-----------------
 
 The map ( |Map| ) is the place where geographic informations (vector or raster) are displayed. The user can navigate into the map (using zoom or pan tools), select and get informations on objects.
 
@@ -77,7 +79,7 @@ The map ( |Map| ) is the place where geographic informations (vector or raster) 
 .. _toc:
 
 TOC
-------
+-----------------
 
 TOC ( |TOC| ) stands for "Table Of Content". This component allows the user to:
 
@@ -91,12 +93,13 @@ Moreover, several features are available via a right-click:
 
 - Show attributes ( |OpenAttributes| ): show the attributes's table,
 - Zoom to the layer ( |ZoomLayer| ): Extended zoom on the layer,
-- Import a style ( |ImportStyle| ),
-- Create a thematic analysis ( |Thematic| ),
-- Edit ( |EditStyle| ), delete ( |RemoveStyle| ) or export ( |ExportStyle| ) an existing style,
+- Import a style ( |ImportStyle| ), *
+- Create a thematic analysis ( |Thematic| ), *
+- Edit ( |EditStyle| ), delete ( |RemoveStyle| ) or export ( |ExportStyle| ) an existing style, *
 - Remove the layer ( |Remove| ): Remove the layer from the TOC,
 - Start edition ( |Edit| ): To edit a layer *(e.g: add a field, delete an object, …)*.
 
+\* see :ref:`cartography`.
 
 .. |TOC| image:: ../_images/toc.png
               :alt: TOC icon
@@ -135,7 +138,7 @@ Moreover, several features are available via a right-click:
 	      :width: 16 pt
 
 DB Tree
----------------
+-----------------
 
 The DB Tree ( |DBTree| ) is a tree representation of all the layers loaded in OrbisGIS. Layers *(tables)* are listed into their respectives folder *(schema)*.
 
@@ -163,7 +166,7 @@ Specific options allows the user to:
 
 
 Output console
---------------------
+-----------------------
 
 The output ( |Output| ) console is the place where all messages (informations, warnings or errors) are displayed.
 
@@ -175,7 +178,7 @@ Logs can be copy and paste into a text editor.
 
 
 SQL console
-----------------
+-----------------------
 
 The SQL console ( |SQLConsole| ) is the place where the user can process data thanks to SQL scripts. To know more about this component, read ":ref:`sql_console`".
 

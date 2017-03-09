@@ -1,3 +1,5 @@
+.. Author : Gwendall PETIT (Lab-STICC - CNRS UMR 6285 / DECIDE Team)
+
 .. OrbisGIS documentation master file, created by
    sphinx-quickstart on Wed Oct 21 14:23:48 2015.
    You can adapt this file completely to your liking, but it should at least
@@ -39,6 +41,7 @@ In this part, we present the basis of OrbisGIS (how to launch, to discover and t
    users/quickstart
    users/attributes
    users/sql_console
+   users/cartography
    users/groovy_with_sql
 
 
