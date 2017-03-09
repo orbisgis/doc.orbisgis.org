@@ -40,9 +40,10 @@ A symbolizer can be:
 
 * a point,
 * a line,
-* a polygon.
+* a polygon,
+* a text.
 
-Here, we propose a pre-configured set of symbolizers to create maps:
+OrbisGIS proposes a set of pre-configured symbolizers to create maps:
 
 * `Unique symbol`_, 
 * `Value classification`_, 
