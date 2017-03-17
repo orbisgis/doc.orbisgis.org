@@ -45,17 +45,18 @@ In this part, we present the basis of OrbisGIS (how to launch, to discover and t
    users/groovy_with_sql
 
 
-Developer documentation
------------------------
+Contributors documentation
+-----------------------------
 
-This part is mainly oriented to developers. Some useful informations and examples are presented. 
+This part is mainly oriented to contributors (developers and translators). Some useful informations and examples are presented. 
 
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Developer documentation
+   :caption: Contributor documentation
 
-   developers/api
+   contributors/dev
+   contributors/translate
 
 
 
