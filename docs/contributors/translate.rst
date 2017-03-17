@@ -1,6 +1,6 @@
 .. Author : Gwendall PETIT (Lab-STICC - CNRS UMR 6285 / DECIDE Team)
 
-Translation 
+Translate 
 ============
 
 The translation of OrbisGIS is managed thanks to the Transifex_ platform, a free-to-use website enabling users to collaboratively translate open-source projects. To do so, you just have to create a free account. Then, you can access to the Transifex OrbisGIS project HERE_.

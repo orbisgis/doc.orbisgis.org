@@ -86,6 +86,7 @@ Note: You must have the rights to run this file. To do this, you can use the fol
 ... and your file will be executable.
 
 
+.. _Ubuntu_PPA_repository:
 
 Ubuntu PPA repository
 --------------------------------

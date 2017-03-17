@@ -3,12 +3,54 @@
 Develop 
 ========
 
+
+Source code
+-----------------------
+
+OrbisGIS is a free and open-source GIS software, released under the `GPL v3`_ licence. You can access to the source code on the dedicated GitHub_ repository.
+
+.. _GitHub: https://github.com/orbisgis/orbisgis/
+
+Developers are cordially invited to contribute to OrbisGIS, posting:
+
+* Issues: detect a bug, ask for enhancement ? `Create an issue`_ on GitHub,
+* `Pull Request`_ (PR): want to contribute ? Please submit your PR and we will analyze it carefully.
+
+.. _Create an issue: https://github.com/orbisgis/orbisgis/issues/new
+.. _Pull Request: https://github.com/orbisgis/orbisgis/pulls
+
+
+Tools for developers
+----------------------------
+
+The following two "Continuous Integration" tools are used to build, control and deploy OrbisGIS source code:
+
+* `Jenkins server`_
+* `Travis`_
+
+.. _Jenkins server: http://jenkins.orbisgis.org/
+.. _Travis: https://travis-ci.org/orbisgis/orbisgis
+
+Releases & Snapshot
+----------------------------
+
+* Releases and pre-releases versions can be found `HERE`_
+* Daily snapshot release *(for test purpose)* is provided via:
+	* a `.zip`_ file *(works on Linux, Windows and macOS)*,
+	* a `.deb`_ file *(for amd64 architecture / also available for* `i386`_ *)*,
+	* the :ref:`Ubuntu_PPA_repository`.
+
+.. _HERE: https://github.com/orbisgis/orbisgis/releases
+.. _.zip: http://jenkins.orbisgis.org/job/orbisgis/lastSuccessfulBuild/artifact/orbisgis-dist/target/orbisgis-bin.zip
+.. _.deb: https://launchpad.net/~orbisgis/+archive/ubuntu/orbisgis-unstable/+files/orbisgis_5.1.0-snapshot513-1_amd64.deb 
+.. _i386: https://launchpad.net/~orbisgis/+archive/ubuntu/orbisgis-unstable/+files/orbisgis_5.1.0-snapshot513-1_i386.deb
+
 Wiki documentation
 --------------------------
 
-Below are some useful links to developers documentation, that are mainly provided on the OrbisGIS GitHub_ account.
+Below are some useful links for developers, that are mainly provided on the wiki_ page of the OrbisGIS GitHub repository.
 
-.. _GitHub: https://github.com/orbisgis/orbisgis/wiki
+.. _wiki: https://github.com/orbisgis/orbisgis/wiki
 
 
 * `How to build OrbisGIS ?`_
@@ -30,32 +72,6 @@ Below are some useful links to developers documentation, that are mainly provide
 .. _Create your plugin: https://github.com/orbisgis/orbisgis/wiki/8.1.-Create-your-plugin
 .. _Resolve your plugin's dependencies: https://github.com/orbisgis/orbisgis/wiki/8.2.-Resolve-your-plugin's-dependencies
  
-
-Downloads and links
------------------------------------
-
-* Releases and pre-releases versions can be found `HERE`_
-* `Daily build version`_ (for test purpose)
-* Continuous Integration
-	* `Jenkins server`_
-	* `Travis`_
-
-.. _HERE: https://github.com/orbisgis/orbisgis/releases
-.. _Daily build version: http://jenkins.orbisgis.org/job/orbisgis/lastSuccessfulBuild/artifact/orbisgis-dist/target/orbisgis-bin.zip
-.. _Jenkins server: http://jenkins.orbisgis.org/
-.. _Travis: https://travis-ci.org/orbisgis/orbisgis
-
-
-Contribute
------------------------
-
-Developers are cordially invited to contribute to OrbisGIS via:
-
-* Issues: detect a bug, ask for enhancement ? `Create an issue`_ on GitHub
-* `Pull Request`_ (PR): want to contribute ? Please submit your PR and we will analyze it carefully.
-
-.. _Create an issue: https://github.com/orbisgis/orbisgis/issues/new
-.. _Pull Request: https://github.com/orbisgis/orbisgis/pulls
 
 
 Additional informations
