@@ -27,7 +27,7 @@ Licence
 Except where otherwise noted, this documenation is licensed under a *Creative Commons Attribution-NonCommercial-ShareAlike 4.0* (CC-BY-NC-SA_) International License.
 
 User documentation
------------------------
+---------------------------------------------
 
 In this part, we present the basis of OrbisGIS (how to launch, to discover and to use the application).
 
@@ -39,14 +39,16 @@ In this part, we present the basis of OrbisGIS (how to launch, to discover and t
    users/install
    users/components
    users/quickstart
-   users/attributes
-   users/sql_console
+   users/manage_data
    users/cartography
-   users/groovy_with_sql
+   users/plugins
+   users/script_sql
+   users/script_groovy
+   users/script_r
 
 
 Contributors documentation
------------------------------
+---------------------------------------------
 
 This part is mainly oriented to contributors (developers and translators). Some useful informations and examples are presented. 
 

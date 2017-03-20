@@ -1,13 +1,21 @@
 .. Author : Gwendall PETIT (Lab-STICC - CNRS UMR 6285 / DECIDE Team)
 
+
+.. _manage_data:
+
+Manage data
+=====================
+
+
 .. _show_attributes:
 
+Manage tables 
+---------------------------
 
-Show attributes 
-===============
+To display the layer’s attributes, select it in the TOC (or in the Geocatalog) and make a right-click --> "Open attributes" ( |OpenAttributes| ).
 
 
-To show the layer’s attributes, select it in the TOC (or in Geocatalog) and make a right-click --> "Open attributes" ( |OpenAttributes| ).
+
 
 A new tab appears in the UI with all the attributes.
 
@@ -34,7 +42,7 @@ A new tab appears in the UI with all the attributes.
 
 
 Operation on rows
--------------------------
+*******************************
 
 With a right-click on a row, the user can access to several options:
 
@@ -69,7 +77,7 @@ With a right-click on a row, the user can access to several options:
 
 
 Operation on a column
-----------------------------
+*******************************
 
 With a right-click on a column (field), the user can access to several options:
 
@@ -105,7 +113,7 @@ With a right-click on a column (field), the user can access to several options:
 
 
 Search engine
---------------------
+*******************************
 
 In the lower part of the window, there is a search engine that can be used in two ways:
 

@@ -52,7 +52,7 @@ OrbisGIS proposes a set of pre-configured symbolizers to create maps:
 
 Below is an example with a `Unique symbol`_ representation for the french departments. On the left side of the UI, we can see the three levels of the style (Style / Rule / Symbolizer). On the right side of the UI, we have the "rule settings" panel.
 
-.. image:: ../_images/thematic_example.png
+.. image:: ../_images/cartography/thematic_example.png
               :alt: Unique symbol example
               :align: center
 
@@ -96,7 +96,7 @@ In the TOC ( |TOC| ) you have options to manage the style of your layer. Through
 
 You can also unfold *(see red circle in the illustration below)* a layer to display all the different styles that are associated (between 1 and *n*).
 
-.. image:: ../_images/thematic_many_styles.png
+.. image:: ../_images/cartography/thematic_many_styles.png
               :alt: One or n styles
               :align: center
 
@@ -104,7 +104,7 @@ You can also unfold *(see red circle in the illustration below)* a layer to disp
 
 By default, when loading the layer into the TOC, a `Unique symbol`_ style is applied. In the example below, two styles are associated to the DEPARTEMENT layer : one default and one `Value classification`_ *(in the foreground)*.
 
-.. image:: ../_images/thematic_unfold_styles.png
+.. image:: ../_images/cartography/thematic_unfold_styles.png
               :alt: Unfold styles
               :align: center
 
@@ -125,21 +125,21 @@ Depending on the geometry dimension, the user can manage:
 Unique symbol - Point
 **********************************
 
-.. image:: ../_images/thematic_us_point.png
+.. image:: ../_images/cartography/thematic_us_point.png
               :alt: Unique symbol - Point
               :align: center
 
 Unique symbol - Line
 **********************************
 
-.. image:: ../_images/thematic_us_line.png
+.. image:: ../_images/cartography/thematic_us_line.png
               :alt: Unique symbol - Line
               :align: center
 
 Unique symbol - Area
 **********************************
 
-.. image:: ../_images/thematic_us_area.png
+.. image:: ../_images/cartography/thematic_us_area.png
               :alt: Unique symbol - Area
               :align: center
 
@@ -155,21 +155,21 @@ For one specific field, every objects that have the same value, have the same sy
 Value classification - Point
 **********************************
 
-.. image:: ../_images/thematic_class_point.png
+.. image:: ../_images/cartography/thematic_class_point.png
               :alt: Value classification - Point
               :align: center
 
 Value classification - Line
 **********************************
 
-.. image:: ../_images/thematic_class_line.png
+.. image:: ../_images/cartography/thematic_class_line.png
               :alt: Value classification - Line
               :align: center
 
 Value classification - Area
 **********************************
 
-.. image:: ../_images/thematic_class_area.png
+.. image:: ../_images/cartography/thematic_class_area.png
               :alt: Value classification - Area
               :align: center
 
@@ -187,7 +187,7 @@ The user can manage:
 Proportionnal Point
 **********************************
 
-.. image:: ../_images/thematic_prop_point.png
+.. image:: ../_images/cartography/thematic_prop_point.png
               :alt: Proportionnal Point
               :align: center
 
@@ -195,7 +195,7 @@ Proportionnal Point
 Proportionnal Line
 **********************************
 
-.. image:: ../_images/thematic_prop_line.png
+.. image:: ../_images/cartography/thematic_prop_line.png
               :alt: Proportionnal Line
               :align: center
 
@@ -216,21 +216,21 @@ A numeric field is used to make a classification by intervals. The user is able 
 Interval Classification - Point
 **********************************
 
-.. image:: ../_images/thematic_inter_point.png
+.. image:: ../_images/cartography/thematic_inter_point.png
               :alt: Interval Classification - Point
               :align: center
 
 Interval Classification - Line
 **********************************
 
-.. image:: ../_images/thematic_inter_line.png
+.. image:: ../_images/cartography/thematic_inter_line.png
               :alt: Interval Classification - Line
               :align: center
 
 Interval Classification - Area
 **********************************
 
-.. image:: ../_images/thematic_inter_area.png
+.. image:: ../_images/cartography/thematic_inter_area.png
               :alt: Interval Classification - Area
               :align: center
 
@@ -255,7 +255,7 @@ In the example below, for one layer (DEPARTEMENT), we have one style composed of
        * Interval classification - Area
 
 
-.. image:: ../_images/thematic_complex_style.png
+.. image:: ../_images/cartography/thematic_complex_style.png
               :alt: Complex styles
               :align: center
 
@@ -269,26 +269,36 @@ Using the toolbar, the user can:
 * Edit ( |ToolEdit| ) the selected symbolizer / rule,
 
 
-.. |ToolAdd| image:: ../_images/thematic_tool_add.png
+.. |ToolAdd| image:: ../_images/cartography/thematic_tool_add.png
               :alt: Add icon
               :width: 16 pt
 
-.. |ToolRemove| image:: ../_images/thematic_tool_remove.png
+.. |ToolRemove| image:: ../_images/cartography/thematic_tool_remove.png
               :alt: Remove icon
               :width: 16 pt
 
-.. |ToolEdit| image:: ../_images/thematic_tool_edit.png
+.. |ToolEdit| image:: ../_images/cartography/thematic_tool_edit.png
               :alt: Edit icon
               :width: 16 pt
 
-.. |ToolUp| image:: ../_images/thematic_tool_up.png
+.. |ToolUp| image:: ../_images/cartography/thematic_tool_up.png
               :alt: Up icon
               :width: 16 pt
 
-.. |ToolDown| image:: ../_images/thematic_tool_down.png
+.. |ToolDown| image:: ../_images/cartography/thematic_tool_down.png
               :alt: Down icon
               :width: 16 pt
 
 
+Compose & export maps
+-------------------------------------------
 
+With the `Map Composer`_ plugin, user can compose maps. This interface gives users the opportunity to add text, orientation, scale, \... and to export the result in .pdf or image files. A detailled documentation is provided `HERE`_.
+
+.. _Map Composer: https://github.com/orbisgis/orbisgis-official-plugins/tree/master/mapComposer
+.. _HERE: https://github.com/orbisgis/orbisgis-official-plugins/tree/master/mapComposer
+
+.. image:: ../_images/cartography/mapcomposer_map.png
+              :alt: Map Composer
+              :align: center
 
