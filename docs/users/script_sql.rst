@@ -51,6 +51,7 @@ Here, the user is able to:
 * To drag & drop a function from the list to the text area, in order to see the default syntax of the chosen function,
 * Search & Replace words *(with advanced options)* ( |Search| ),
 * Share SQL instructions via email (need the "`Mailto`_" plugin),
+* Specify a query timeout ( |timeout| ),
 * To auto-complete instructions *(see* `Auto-completion`_ *)*.
 
 
@@ -125,6 +126,10 @@ Below is an illustration video *(made for the V3.0 but works in the same spirit 
               :alt: Search icon
 	      :width: 16 pt
 
+
+.. |timeout| image:: ../_images/sql_timeout.png
+              :alt: Timeout icon
+	      :width: 16 pt
 
 Use cases
 -----------------------
