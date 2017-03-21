@@ -5,7 +5,10 @@
 Plugins 
 =================
 
-OrbisGIS is able to extent its functionnalities through the use of plugins.
+OrbisGIS can be extended with new features thanks to its `Plugins manager`_.
+
+By default, some plugins are already installed (e.g Systems plugins, ...). In addition, user can optionnaly add some `Official plugins`_.
+
 
 OSGi specification
 -----------------------------
@@ -105,7 +108,7 @@ When selecting a plugin, users can:
 Official plugins
 ------------------------------------
 
-In addition of already provided *(by default)* plugins, user can optionnaly add some official OrbisGIS plugins, using the `Plugins manager`_.
+The following plugins are developed by the OrbisGIS team but are not deployed by default. To install them, just use the `Plugins manager`_.
 
 Those plugins are documented in their dedicated GitHub_ repository. Here, you can find:
 
@@ -128,26 +131,4 @@ Those plugins are documented in their dedicated GitHub_ repository. Here, you ca
 .. _Map Composer: https://github.com/orbisgis/orbisgis-official-plugins/tree/master/mapComposer
 .. _JVM memory: https://github.com/orbisgis/orbisgis-official-plugins/tree/master/memory
 .. _R Console: https://github.com/orbisgis/orbisgis-official-plugins/tree/master/r-console
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

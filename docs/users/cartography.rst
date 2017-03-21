@@ -293,7 +293,9 @@ Using the toolbar, the user can:
 Compose & export maps
 -------------------------------------------
 
-With the `Map Composer`_ plugin, user can compose maps. This interface gives users the opportunity to add text, orientation, scale, \... and to export the result in .pdf or image files. A detailled documentation is provided `HERE`_.
+With the `Map Composer`_ plugin, user can create map layouts. A map layout is a collection of map elements organized on a page and designed for map printing. With The Map Composer you can add map elements such as text, orientation, scale. Once you have completed a map layout, you can print it or export it into .pdf or image files.
+
+A detailled documentation is provided `HERE`_.
 
 .. _Map Composer: https://github.com/orbisgis/orbisgis-official-plugins/tree/master/mapComposer
 .. _HERE: https://github.com/orbisgis/orbisgis-official-plugins/tree/master/mapComposer

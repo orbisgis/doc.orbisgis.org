@@ -7,6 +7,8 @@ Manage data
 =====================
 
 
+OrbisGIS offers features to manipulate data.
+
 .. _show_attributes:
 
 Manage tables 
