@@ -44,6 +44,7 @@ What does it mean ?
 
 It mean that all the data you are using are interpreted as tables in OrbisGIS and can be processed thanks to the Spatial SQL langage. It also mean that if you choose to connect OrbisGIS to an existing PostGIS db, you will be able (1) to display and process your data, (2) to execute your PostGreSQL/PostGIS scripts directly into OrbisGIS, without any changes and (3) to use specific PostGreSQL/PostGIS functions.
 
+.. _configure:
 
 Configure
 **********

@@ -28,7 +28,7 @@ OrbisGIS is a standalone application. It means that, if you want (see `Ubuntu PP
 
 Once the orbisgis-bin.zip file downloaded, just unzip the file.
 
-.. image:: ../_images/install_zip.png
+.. image:: ../_images/installation/install_zip.png
               :alt: Zip folder
               :align: center
 
@@ -73,7 +73,7 @@ To run the .sh file *(in Linux and iOS)* in command line, just follow these two 
 
 	./orbisgis.sh
 
-.. image:: ../_images/execute_terminal.png
+.. image:: ../_images/installation/execute_terminal.png
               :alt: Execution terminal
               :align: center
 
@@ -103,7 +103,7 @@ To add this repository and to install OrbisGIS (snapshot version), just execute 
 
 Once done, you can launch OrbisGIS thanks to the shortcut in the "Applications/Education" menu
 
-.. image:: ../_images/og_ubuntu_menu.png
+.. image:: ../_images/installation/og_ubuntu_menu.png
               :alt: OrbisGIS menu in Ubuntu
               :align: center
 
