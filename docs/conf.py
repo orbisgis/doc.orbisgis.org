@@ -341,3 +341,12 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'http://docs.python.org/': None}
+
+# -- Connexion to Github repo ----------------------------------------------
+html_context = {
+    "display_github": True, # Integrate GitHub
+    "github_user": "orbisgis", # Username
+    "github_repo": "doc.orbisgis.org", # Repo name
+    "github_version": "master", # Version
+    "conf_py_path": "/docs/", # Path in the checkout to the docs root
+}
